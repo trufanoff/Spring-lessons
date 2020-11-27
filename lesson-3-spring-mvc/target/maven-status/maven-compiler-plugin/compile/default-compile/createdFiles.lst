@@ -1,0 +1,5 @@
+ru\gb\WebInitializer.class
+ru\gb\AppConfig.class
+ru\gb\controllers\ProductController.class
+ru\gb\persist\Product.class
+ru\gb\persist\ProductRepository.class
