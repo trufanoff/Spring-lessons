@@ -14,4 +14,8 @@ public interface ProductRepository extends JpaRepository<Product, Long>, JpaSpec
     List<Product> findProductByNameLike(String name);
 
     List<Product> findByPriceBetween(BigDecimal min, BigDecimal max);
+//
+//    List<Product> findByMinPrice(BigDecimal min);
+//
+//    List<Product> findByMaxPrice(BigDecimal max);
 }

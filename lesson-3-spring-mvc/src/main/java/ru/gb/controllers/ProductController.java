@@ -11,6 +11,8 @@ import ru.gb.persist.entity.Product;
 import ru.gb.persist.repo.ProductRepository;
 import ru.gb.persist.repo.ProductSpecification;
 
+import java.math.BigDecimal;
+
 @Controller
 @RequestMapping("/product")
 public class ProductController {
@@ -21,7 +23,9 @@ public class ProductController {
     private ProductRepository productRepository;
 
     @GetMapping
-    public String indexProductPage(Model model, @RequestParam(name = "nameFilter", required = false) String nameFilter) {
+    public String indexProductPage(Model model, @RequestParam(name = "nameFilter", required = false) String nameFilter ,
+                                   @RequestParam(name = "minPrice", required = false) BigDecimal minPrice,
+                                   @RequestParam(name = "maxPrice", required = false) BigDecimal maxPrice) {
         logger.info("Product page update");
 
         Specification<Product> spec = Specification.where(null);
@@ -30,6 +34,13 @@ public class ProductController {
             spec = spec.and(ProductSpecification.nameLike(nameFilter));
         }
         // TODO добавить обработку параметров формы
+        if (minPrice != null) {
+            spec = spec.and(ProductSpecification.minPrice(minPrice));
+        }
+
+        if (maxPrice != null) {
+            spec = spec.and(ProductSpecification.maxPrice(maxPrice));
+        }
 
         model.addAttribute("products", productRepository.findAll(spec));
         return "product";
