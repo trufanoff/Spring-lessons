@@ -1,14 +1,24 @@
-package ru.gb.persist;
+package ru.gb.persist.entity;
 
+import javax.persistence.*;
 import java.math.BigDecimal;
 
+
+@Entity
+@Table(name = "products")
 public class Product {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column
     private String name;
 
+    @Column
     private String description;
 
+    @Column
     private BigDecimal price;
 
     public Product() {

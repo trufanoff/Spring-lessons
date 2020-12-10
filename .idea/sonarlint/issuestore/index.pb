@@ -55,10 +55,6 @@ K
 html-templates/product.html,9\2\9259bd87bc9969d51906dfb060f21b2f2897494f
 n
 >lesson-3-spring-mvc/src/main/webapp/WEB-INF/views/product.html,9\a\9a9e0b3bd421b265cea6426a56b5f7bff5f74686
-l
-<lesson-3-spring-mvc/src/main/java/ru/gb/persist/Product.java,9\0\902d831867523f467ac522c3116cefd24a4518ef
-v
-Flesson-3-spring-mvc/src/main/java/ru/gb/persist/ProductRepository.java,8\d\8d59d8786007c64e150c52bea2c3ded2445767e0
 f
 6lesson-3-spring-mvc/src/main/java/ru/gb/AppConfig.java,3\b\3bb92d5e455eb1ebaf1071100cc975f634a1282b
 k
@@ -67,3 +63,5 @@ s
 Clesson-3-spring-mvc/src/main/webapp/WEB-INF/views/product_form.html,9\9\998bb8f86d0ffdd6fe51c885762dfcb954a9f3d2
 z
 Jlesson-3-spring-mvc/src/main/java/ru/gb/controllers/ProductController.java,a\4\a4798c15b81eaa9980aa93ba82257a5a90c2f307
+I
+lesson-3-homework/pom.xml,c\d\cd82c5e8d3168da9f7c5ad871b6735cdb4962382

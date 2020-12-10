@@ -12,6 +12,7 @@
         <module>lesson-01-basics</module>
         <module>lesson-2-servlet</module>
         <module>lesson-3-spring-mvc</module>
+        <module>lesson-3-homework</module>
     </modules>
 
     <properties>
