@@ -1,5 +1,10 @@
 ru\gb\AppConfig.class
+ru\gb\controllers\ProductController.class
 ru\gb\persist\entity\Product.class
-ru\gb\persist\ProductRepository.class
+ru\gb\service\ProductService.class
+ru\gb\persist\repo\ProductRepository.class
+ru\gb\persist\repo\ProductSpecification.class
+ru\gb\exception\NotFoundException.class
 ru\gb\WebInitializer.class
 ru\gb\PersistConfig.class
+ru\gb\service\ProductServiceImpl.class
