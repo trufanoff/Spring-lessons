@@ -1,5 +1,10 @@
+C:\Users\Mvideo\Documents\IdeaProjects\Spring-lessons\lesson-3-spring-mvc\src\main\java\ru\gb\PersistConfig.java
 C:\Users\Mvideo\Documents\IdeaProjects\Spring-lessons\lesson-3-spring-mvc\src\main\java\ru\gb\WebInitializer.java
-C:\Users\Mvideo\Documents\IdeaProjects\Spring-lessons\lesson-3-spring-mvc\src\main\java\ru\gb\persist\ProductRepository.java
+C:\Users\Mvideo\Documents\IdeaProjects\Spring-lessons\lesson-3-spring-mvc\src\main\java\ru\gb\service\ProductService.java
+C:\Users\Mvideo\Documents\IdeaProjects\Spring-lessons\lesson-3-spring-mvc\src\main\java\ru\gb\persist\repo\ProductSpecification.java
+C:\Users\Mvideo\Documents\IdeaProjects\Spring-lessons\lesson-3-spring-mvc\src\main\java\ru\gb\exception\NotFoundException.java
+C:\Users\Mvideo\Documents\IdeaProjects\Spring-lessons\lesson-3-spring-mvc\src\main\java\ru\gb\service\ProductServiceImpl.java
 C:\Users\Mvideo\Documents\IdeaProjects\Spring-lessons\lesson-3-spring-mvc\src\main\java\ru\gb\controllers\ProductController.java
+C:\Users\Mvideo\Documents\IdeaProjects\Spring-lessons\lesson-3-spring-mvc\src\main\java\ru\gb\persist\entity\Product.java
+C:\Users\Mvideo\Documents\IdeaProjects\Spring-lessons\lesson-3-spring-mvc\src\main\java\ru\gb\persist\repo\ProductRepository.java
 C:\Users\Mvideo\Documents\IdeaProjects\Spring-lessons\lesson-3-spring-mvc\src\main\java\ru\gb\AppConfig.java
-C:\Users\Mvideo\Documents\IdeaProjects\Spring-lessons\lesson-3-spring-mvc\src\main\java\ru\gb\persist\Product.java
